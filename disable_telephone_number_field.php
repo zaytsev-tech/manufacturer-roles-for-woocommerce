@@ -1,6 +1,6 @@
-Past this code to file "wc-core-functions.php" in line 1973-1990
-
 /**
+ * !!!Past this code to file "wc-core-functions.php" in line 1973-1990!!!
+ *
  * Convert plaintext phone number to clickable phone number.
  *
  * Remove formatting and allow "+".

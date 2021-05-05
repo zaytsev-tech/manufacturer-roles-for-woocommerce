@@ -1,4 +1,4 @@
-Past this code in functions.php of active theme
+//Past this code in functions.php of active theme
 
 function remove_admin_menu_items() {
 	if(current_user_can('santbear_manufacturer') || current_user_can('santbear_specialist')) {
@@ -10,9 +10,9 @@ function remove_admin_menu_items() {
 add_action('admin_menu', 'remove_admin_menu_items', 999);
 
 
-
-BONUS CODE:
-/* The function of viewing the names of items in the admin panel. 
+/*
+ * BONUS CODE:
+ * The function of viewing the names of items in the admin panel. 
  * This will help if you want to hide any other fields in the sidebar.
  * This function returns field names that can be hidden of methods 'remove_menu_page' or 'remove_submenu_page'.
 */
